@@ -1,0 +1,6 @@
+<!ELEMENT animales (animal+)>
+<!ELEMENT animal (nombre, dieta, habitat)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT dieta (#PCDATA)>
+<!ELEMENT habitat (#PCDATA)>
+<!ATTLIST animal codigo ID #REQUIRED>

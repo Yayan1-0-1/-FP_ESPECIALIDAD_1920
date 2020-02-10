@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- titulo-->
+<body>
+<form>
+<title>EL Corte Perfecto</title>
+<center><h1>INSCRIPCIÓN DE CLIENTES</h1></center>
+<body style="background-color:LIGHTCYAN;"></body>
+<!--cierra titulo-->
+
+<!-- tabla-->
+<center>
+<table  border="1" width="600">
+<tr>
+  <td height="20" colspan="2" rowspan="2"><center>TIPO DE INDUSTRIA</center></td>
+  <td height="40" colspan="3"><center>ORDEN POR FACTURACION EN</center></td>
+</tr>
+  <tr>
+  <td><center>ESPAÑA</center></td>
+  <td><center>EUROPA</center></td>
+  <td><center>AMÉRICA</center></td>
+ </tr>
+ <tr>
+ <td colspan="2"><center>Textil</center></td>
+  <td><center>1</center></td>
+  <td><center>3</center></td>
+  <td><center>5</center></td>
+ </tr>
+</table>
+</center>
+<!-- cierra tabla-->
+</br>
+<!-- tabla datos personales-->
+ <fieldset>
+ <legend align="center">Datos Personales</legend>
+ <form id="Datos Personales" method="post" action="#" >
+	<br>Nombre:</br>
+		<input type="text"  placeholder="Nombre" required autofocus ></br>
+	<br>Apellidos:</br>
+		<input type="text" placeholder="Apellido" required ></br>
+	<br>Continente:</br>
+		<input type="text" placeholder="Europa/America" pattern=".{6,}" ></br>		
+	<br>Pais:</br>
+		<input type="text" placeholder="España" > </br>
+	<br>Ciudad:</br>
+		<input type="text" placeholder="Madrid" required ></br>
+	<br>Email:</br>
+		<input type="text" placeholder="alumno@gmail.com" required ></br>
+
+ </fieldset>
+ <!-- cierra tabla datos personales-->
+</br>
+ <!-- tabla gustos textiles-->
+ <fieldset>
+ <legend align="center">Gustos Textiles y Envio</legend>
+ <form id="Datos Personales" method="post" action="#">
+	<br>Preferencias de Ropa:</br>
+		<input type="radio" name="gender" > Masculino
+		<input type="radio" name="gender" >Femenino
+		<input type="radio" name="gender" > Unisex</br>
+	<br>Tallas usadas en el hogar</br>
+		<label><input type="checkbox" name="gender" />XS</label>
+		<label><input type="checkbox" name="gender" />S</label>
+		<label><input type="checkbox" name="gender" />M</label>
+		<label><input type="checkbox" name="gender" />L</label>
+		<label><input type="checkbox" name="gender" />XL</label>
+		<label><input type="checkbox" name="gender" />XXL</label>
+		<label><input type="checkbox" name="gender" />XXXL</label></br></br>
+	<div>Prendas Preferidas:</div>
+		<select name="Prendas">
+		<option>Pantalones</option>
+		<option>Faldas</option>
+		<option>Blusas</option>
+		<option>Cazadoras</option>
+		<option>Abrigos</option>
+		</select></br></br>
+	<div>Envio:<div>
+	<select	name="envio">
+	<optgroup label="Recogida en Mano"> 
+	<option label="En Tienda">En Tienda</option>
+	<option value="En Oficina de Correos">En oficina de Correos</option>
+	<optgroup label="Envio a Domicilio"> 
+	<option label="Por Avion">Por Avion</option>
+	<option value="Por tren">Por tren</option>
+	<option value="Por camion">Por camion</option>
+	</select></br></br>
+	
+ </fieldset>
+ <!-- cierra tabla gustos textiles-->
+ </br>
+ <!-- tabla de observaciones -->
+<center>
+ <fieldset>
+ <legend align="center">Observaciones</legend>
+		<textarea name="variable" cols="90" rows="30" style="overflow:auto;resize:none"></textarea>
+ </fieldset>
+</center>
+<!-- cierra tabla observaciones -->
+ </br>
+ 
+<!-- tabla enviar y borrar -->
+<center>
+ <fieldset>
+ 		<input type="submit" value="Enviar Datos del Formulario" type="button" onclick="alert('Datos Enviados')">
+		<input type="reset" value="Borrar Datos de Formulario" type="button" onclick="alert('Datos Borrados')">
+ </fieldset>
+</center>
+<!-- cerrar tabla enviar y borrar-->
+
+</body>
+</form>
+</html>
+
+
+
+
+

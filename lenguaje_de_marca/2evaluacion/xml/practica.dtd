@@ -1,0 +1,8 @@
+<!ELEMENT librerias(libreria+)>
+<!ELEMENT libreria (nombre direccion ciudad tema autor)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENTdireccion (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT tema(#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+

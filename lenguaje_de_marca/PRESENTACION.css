@@ -1,0 +1,43 @@
+body
+	{
+		color:blue;
+		font-size:15px;
+		background-color:rgb(10%,60%,30%)
+	}
+
+
+#p0 
+	{
+		color: red;
+		font-size: 30px;
+	}
+
+#p1 
+	{
+		color: pink;
+		font-size: 20px;
+	}
+*/
+#p2 
+	{
+		color: green;
+		font-size: 12px;
+	}
+.etiqueta
+	{
+		color: green;
+		font-size: 30px;
+	}
+
+
+span
+
+	{
+		color: red;
+		font-size: 15px;
+	}
+
+fieldset
+	{
+		width: 1000px;
+	}

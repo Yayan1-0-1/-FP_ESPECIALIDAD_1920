@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE animales SYSTEM "MiPrimerXML.dtd">
+<animales>
+  <animal codigo="a1">
+    <nombre>vulpes vulpes zorro</nombre>
+    <dieta>CarnIvoro</dieta>
+    <habitat>Bosque</habitat> 
+  </animal>
+  <animal codigo="a2">
+    <nombre>vulpes vulpes leon</nombre>
+    <dieta>Carnívoro</dieta>
+    <habitat>Bosque</habitat> 
+  </animal>
+  <animal codigo="a3">
+    <nombre>vulpes vulpes tigre</nombre>
+    <dieta>Carnívoro</dieta>
+    <habitat>Bosque</habitat>
+  </animal>
+</animales>
