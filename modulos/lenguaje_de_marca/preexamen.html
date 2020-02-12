@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+	<meta charset="utf-8" />
+	<title>La carta veloz S.L</title>
+	<head>
+		<h1> LA CARTA VELOZ.</h1>
+	</head>
+	<body>
+	<img src="sobres.jpg"  width="150">
+	<table border="1">
+		<tr>
+			<th>Producto</th>
+			<th>España</th>
+			<th>Resto Europa</th>
+			<th>América</th>
+			<th>Asia</th>
+			<th>Oceanía</th>
+			<th>África</th>
+		</tr>
+			<td>Normal</td>
+			<td>1,20</td>
+			<td>1,50</td>
+			<td>2,00</td>
+			<td>2,15</td>
+			<td>2,30</td>
+			<td>2,15</td>
+		<tr>
+			<td>Certificada</td>
+			<td>2,20</td>
+			<td>2,50</td>
+			<td>3,00</td>
+			<td>3,15</td>
+			<td>3,30</td>
+			<td>3,15</td>
+		</tr>
+		<tr>
+			<td>Urgente</td>
+			<td>3</td>
+			<td>3,50</td>
+			<td>4,00</td>
+			<td>5,00</td>
+			<td>6,00</td>
+			<td>5,00</td>
+		</tr>
+	</table>
+	</br>
+	<p>Deberá especificar Producto, Dirección de Origen e Email. En caso de Destino de los refeljados tendrá que teclear 10,00 en Tarifa Extra</p>
+	</br>
+	<form id="envios" method="post" action="#">
+	<label for="nombre"  >Producto*:</label>
+		<select> 
+			<option autofocus >Normal</option>
+			<option>Certificada</option>
+			<option>Urgente</option>
+		</select>
+	</br>
+	<label for="nombre" required>Destino*:</label>
+		<input type ="com">
+	</br>
+	<label for ="Tarifa" >Tarifa Extra*:</label>
+		<input type="number" id="Tarifa"  step="0.01" value="0" min="0" max="100" />
+	</br>
+	<label for ="nombre"required>Destino Origen*:</label>
+		<input type="text" maxlength="40">
+	</br>
+	<label for ="CORREO"required >Email*:</label>
+		<input type="Email"  id="correo">
+	</br>
+	<input type="reset" value="RESET" type="button" >
+	<input type="submit" value="ENVIAR" type="button" >
+	</form>
+	</body>

@@ -1,0 +1,25 @@
+body
+{
+	background-image:paisaje.jpg;
+}
+p
+{
+	font-style:oblique;
+	font-family:timesNewRoman;
+	text-decoration:overline;
+	text-align:right;
+}
+h1,#miP
+{
+	font-style:italic;
+	font-family:timesNewRoman;
+	text-decoration: underline;
+	text-align:center;
+}
+.text
+{
+	
+	text-indent:200px;
+	text-decoration:none;
+	text-transform:capitalize;
+}

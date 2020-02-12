@@ -1,0 +1,86 @@
+primeraPaquete;
+
+//Queremos crear una clase Mamifero
+public class Mamifero 
+{//Con las llaves decimos que aquÃ­ empieza mi clase
+	
+	//Estos son nuestro atributos
+	//Se ponen SIEMPRE al principio de la clase Â¿verdad?
+	boolean sexo_masculino;//LÃ³gico
+	int  peso;//Entero
+	double altura;//Real
+	String fecha_nacimiento;//Cadena
+	String especie;//Cadena
+	int tiempo_gestacion_dias;//Entero
+
+	//AquÃ­ empezamos a tener todos nuestros mÃ©todos
+	public int getTiempo_gestacion_dias() {
+		return tiempo_gestacion_dias;
+	}
+
+	public void setTiempo_gestacion_dias(int _tiempo_gestacion_dias) {
+		tiempo_gestacion_dias = _tiempo_gestacion_dias;
+	}
+
+	public String getEspecie() {
+		return especie;
+	}
+
+	public void setEspecie(String especie) {
+		this.especie = especie;
+	}
+	
+	public boolean isSexo_masculino() {
+		return sexo_masculino;
+	}
+
+	public void setSexo_masculino(boolean _sexo_masculino) 
+	{
+		_sexo_masculino = sexo_masculino;
+	}
+
+	public int getPeso() {
+		return peso;//AquÃ­ devolvemos el valor, es peso <- getPeso() del PSeInt
+	}
+
+	public void setPeso(int peso) 
+	{
+		this.peso = peso;
+	}
+
+	public double getAltura() 
+	{
+		return altura;
+	}
+
+
+	public void setAltura(double altura) 
+	{
+		this.altura = altura;
+	}
+
+
+	public String getFecha_nacimiento() 
+	{
+		return fecha_nacimiento;
+	}
+
+
+	public void setFecha_nacimiento(String fecha_nacimiento) {
+		this.fecha_nacimiento = fecha_nacimiento;
+	}
+
+	void mostrarInfo()
+	{
+		System.out.println("Mostramos la informaciÃ³n del animal");
+		System.out.println("Altura: "+getAltura());
+		System.out.println("Peso: "+getPeso());
+		System.out.println("Fecha nacimiento:"+getFecha_nacimiento());
+		System.out.println("Su especie es: "+getEspecie());
+		System.out.println("Su tiempo de gestaciÃ³n es de:"+getTiempo_gestacion_dias()+" dias.");
+		if (isSexo_masculino())//Si (condiciÃ³n) entonces
+			System.out.println("su gÃ©nero masculino");//entonces hacemos esto
+		else//sino
+			System.out.println("su gÃ©nero femenino");//Pues hacemos esto :)
+	}
+}//AquÃ­ termina nuestra clase
